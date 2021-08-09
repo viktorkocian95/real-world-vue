@@ -45,7 +45,7 @@ export default {
           title: 'Beach Cleanup',
           description: 'Help pick up trash along the shore.',
           location: 'Playa Del Carmen',
-          date: 'July 22, 2022',
+          date: 'July 22, 2021',
           time: '11:00',
           petsAllowed: false,
           organizer: 'Carey Wales'
