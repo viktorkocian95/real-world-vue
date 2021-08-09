@@ -1,5 +1,5 @@
 <template>
-  <div class="event-card">
+  <div className="event-card">
     <span>@{{ event.time }} on {{ event.date }}</span>
     <h4>{{ event.title }}</h4>
   </div>
@@ -7,9 +7,11 @@
 
 <script>
 export default {
-  name: 'EventCard',
   props: {
-   event: Object
+    event: {
+      type: Object,
+      required: true
+    }
   }
 }
 </script>
